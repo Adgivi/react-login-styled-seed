@@ -1,4 +1,4 @@
-import Main from "./Main";
-import Login from "./Login";
+import Main from "./Main/Main";
+import Login from "./Login/Login";
 
 export { Main, Login };
