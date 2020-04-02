@@ -23,7 +23,7 @@ const Login = () => {
   const getInputType = (field) => (field === "password" ? "password" : "text");
 
   return isAuthenticated ? (
-    <Redirect to="/main" />
+    <Redirect to="/users" />
   ) : (
     <Container>
       <Title>Skynet APP</Title>
